@@ -18,19 +18,12 @@ module.exports = function (grunt) {
                     'js/v2-mobile.min.js': 'js/v2-mobile.js',
                     'js/index.min.js': 'js/index.js'
                 }
-                //源文件
-                //src: 'index.js',
-                //src: 'v2-mobile.js',
-                //目标文件
-                //dest: 'index.min.js'
-                //dest: 'v2-mobile.min.js'
             }
         },
 
 
         //css min
         cssmin: {
-            //with_banner: {
             //文件头部输出信息
             options: {
                 banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> by fwx*/\n'
@@ -48,8 +41,6 @@ module.exports = function (grunt) {
                     'style/v2/promoNew.min.css': ['style/v2/01reset.css', 'style/v2/02common.css', 'style/v2/03headFoot.css', 'style/v2/06promoNew.css']
                 }
             }
-
-            //}
         }
 
 
